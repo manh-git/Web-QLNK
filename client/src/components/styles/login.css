@@ -40,6 +40,9 @@
     color: #555;
     font-size: 18px;
 }
+.login1 h1 {
+    color: #000; 
+}
 
 .input-row input {
     border: none;
@@ -47,8 +50,20 @@
     flex: 1;
     font-size: 16px;
     background: transparent;
+    color: #000;
 }
 
+.login1 .title {
+    color: #000 !important; 
+    display: block;
+    -webkit-text-fill-color: #000; 
+}
+.login1 p {
+    color: #000; /* Màu xám đậm hoặc #000 cho màu đen thuần */
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
 .login-actions {
     display: flex;
     align-items: center;
@@ -242,7 +257,6 @@ textarea.input-PA {
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
-
 .Tieude h2 {
     font-size: 26px;
     font-weight: 800;
